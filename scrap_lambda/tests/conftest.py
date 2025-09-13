@@ -2,8 +2,8 @@ import boto3
 from moto import mock_aws
 from pytest import fixture
 from scrap.utils.settings import settings
-import uuid
 from boto3.dynamodb.conditions import Key
+import uuid
 
 @fixture
 def common_pk():
@@ -57,6 +57,20 @@ def game2(table_dynamodb_mock):
     return response
 
 @fixture
+def game3(table_dynamodb_mock):
+    data={
+        'PK':uuid.uuid4().bytes, 'SK':'METADATA', 'tipo_registro':'jogo', 'nome':'Assyria','nome_ludopedia':'assyria'
+    }
+    table_dynamodb_mock.put_item(Item=data)
+    response=table_dynamodb_mock.get_item(
+        Key={
+            'PK': data['PK'],
+            'SK': data['SK'],
+        }
+    )
+    return response
+
+@fixture
 def auction(table_dynamodb_mock, common_pk):
     data={
         'PK': common_pk, 'SK': 'LEILAO#627426', 'tipo_registro':'leilao', "id_leilao": 627426, 
@@ -78,6 +92,21 @@ def auction(table_dynamodb_mock, common_pk):
 def auction2(table_dynamodb_mock, common_pk):
     data={'PK': common_pk, 'SK': 'LEILAO#627426', 'id_leilao': '627426', 
         'link_leilao': 'https://ludopedia.com.br/leilao/627426/the-red-cathedral', 
+        'valor_pago': 0, 'status': 'em andamento', 'data_alteracao': '2025-09-03 22:14:43.228097', 
+        'data_registro': '2025-09-03 22:14:43.228097', 'tipo_registro': 'leilao'
+    }
+    table_dynamodb_mock.put_item(Item=data)
+    response=table_dynamodb_mock.get_item(
+        Key={
+            'PK': data['PK'],
+            'SK': data['SK'],
+        }
+    )
+    return response
+@fixture
+def auction3(table_dynamodb_mock, common_pk):
+    data={'PK': common_pk, 'SK': 'LEILAO#627426', 'id_leilao': '627426', 
+        'link_leilao': 'https://ludopedia.com.br/leilao/632030/arcs', 
         'valor_pago': 0, 'status': 'em andamento', 'data_alteracao': '2025-09-03 22:14:43.228097', 
         'data_registro': '2025-09-03 22:14:43.228097', 'tipo_registro': 'leilao'
     }

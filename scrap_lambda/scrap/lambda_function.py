@@ -14,9 +14,10 @@ def lambda_handler(event, context):
     )
     if settings.PROCESS=='searcher':
         key=event.get('secret_evaluated_key')
+        key=event.get('batch')
         searcher=SearchAuctions(headers,key)
         searcher.run()
-        logging.INFO(f'Leilões adicionados: {len(searcher.new_auctions)}')
+        logging.info(f'Leilões adicionados: {len(searcher.new_auctions)}')
         return {
             'statusCode': 200,
             'has_more': searcher.has_more,

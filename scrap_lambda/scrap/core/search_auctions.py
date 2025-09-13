@@ -2,7 +2,7 @@ from scrap.models.database import connect_database, download_games, register_dat
 from scrap.core.scraper import get_trs, parse_tr_to_auction
 
 class SearchAuctions:
-    def __init__(self, headers, exclusive_key_start=None, batch_size=20):
+    def __init__(self, headers, batch_size, exclusive_key_start=None):
         self.headers=headers
         self.batch_size=batch_size
         self.engine=None

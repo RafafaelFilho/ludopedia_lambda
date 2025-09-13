@@ -5,9 +5,10 @@ from unittest.mock import patch
 import json
 
 def testar_leitura_leiloes(table_dynamodb_mock, auction):
-    response=download_active_auctions(table_dynamodb_mock)
-    assert response.get('ResponseMetadata')['HTTPStatusCode']==200
-    assert len(response.get('Items', []))==1
+    response, chave, has_more=download_active_auctions(table_dynamodb_mock,20)
+    assert has_more==False
+    assert chave==None
+    assert len(response)==1
 
 def testar_leitura_jogos_sem_outra_volta(table_dynamodb_mock, game):
     response, chave, has_more=download_games(table_dynamodb_mock, 1)
@@ -45,66 +46,83 @@ def testar_nao_existencia_de_leilao(table_dynamodb_mock):
     response=auction_exists(table_dynamodb_mock, uuid.uuid4().bytes, '123')
     assert response==False
 
+
+
+
+
+
 def testar_atualizar_leilao_sem_finalizacao(table_dynamodb_mock, auction):
-    update_info={
-        'observacoes': 'Sem detalhes', 
-        'local': 'Niterói - RJ',
-        'estado_item': True
-    }
-    registry_update(table_dynamodb_mock, update_info, auction.get('Item'))
+    update_info=[
+        {
+            'PK':auction.get('Item')['PK'],
+            'SK':auction.get('Item')['SK'],
+            'observacoes': 'Sem detalhes', 
+            'local': 'Niterói - RJ',
+            'estado_item': True
+        }
+    ]
+    registry_update(table_dynamodb_mock, update_info)
     response=table_dynamodb_mock.get_item(
         Key={
             'PK': auction.get('Item')['PK'],
             'SK': auction.get('Item')['SK']
         }
     )
-    assert response.get('Item')['PK'] == response.get('Item')['PK']
-    assert response.get('Item')['SK'] == response.get('Item')['SK']
-    assert response.get('Item')['observacoes'] == response.get('Item')['observacoes']
-    assert response.get('Item')['local'] == response.get('Item')['local']
-    assert response.get('Item')['estado_item'] == response.get('Item')['estado_item']
+    assert response.get('Item')['PK'] == auction.get('Item')['PK']
+    assert response.get('Item')['SK'] == auction.get('Item')['SK']
+    assert response.get('Item')['observacoes'] != auction.get('Item')['observacoes']
+    assert response.get('Item')['local'] != auction.get('Item')['local']
+    assert response.get('Item')['estado_item'] != auction.get('Item')['estado_item']
 
 def testar_atualizar_leilao_só_finalizacao(table_dynamodb_mock, auction):
-    update_info={
-        'valor_pago': 17000,
-        'status': 'finalizado'
-    }
-    registry_update(table_dynamodb_mock, update_info, auction.get('Item'))
+    update_info=[
+        {
+            'PK':auction.get('Item')['PK'],
+            'SK':auction.get('Item')['SK'],
+            'valor_pago': 17000,
+            'status': 'finalizado'
+        }
+    ]
+    registry_update(table_dynamodb_mock, update_info)
     response=table_dynamodb_mock.get_item(
         Key={
             'PK': auction.get('Item')['PK'],
             'SK': auction.get('Item')['SK']
         }
     )
-    assert response.get('Item')['PK'] == response.get('Item')['PK']
-    assert response.get('Item')['SK'] == response.get('Item')['SK']
-    assert response.get('Item')['valor_pago'] == response.get('Item')['valor_pago']
-    assert response.get('Item')['status'] == response.get('Item')['status']
+    assert response.get('Item')['PK'] == auction.get('Item')['PK']
+    assert response.get('Item')['SK'] == auction.get('Item')['SK']
+    assert response.get('Item')['valor_pago'] != auction.get('Item')['valor_pago']
+    assert response.get('Item')['status'] != auction.get('Item')['status']
 
 def testar_atualizar_leilao_com_finalizacao(table_dynamodb_mock, auction):
-    update_info={
-        'valor_pago': 17000, 
-        'observacoes': 'Sem detalhes', 
-        'local': 'Niterói - RJ',
-        'estado_item': True,
-        'valor_pago': 17000,
-        'status': 'finalizado'
-    }
-    registry_update(table_dynamodb_mock, update_info, auction.get('Item'))
+    update_info=[
+        {
+            'PK':auction.get('Item')['PK'],
+            'SK':auction.get('Item')['SK'],
+            'valor_pago': 17000, 
+            'observacoes': 'Sem detalhes', 
+            'local': 'Niterói - RJ',
+            'estado_item': True,
+            'valor_pago': 17000,
+            'status': 'finalizado'
+        }
+    ]
+    registry_update(table_dynamodb_mock, update_info)
     response=table_dynamodb_mock.get_item(
         Key={
             'PK': auction.get('Item')['PK'],
             'SK': auction.get('Item')['SK']
         }
     )
-    assert response.get('Item')['PK'] == response.get('Item')['PK']
-    assert response.get('Item')['SK'] == response.get('Item')['SK']
-    assert response.get('Item')['valor_pago'] == response.get('Item')['valor_pago']
-    assert response.get('Item')['observacoes'] == response.get('Item')['observacoes']
-    assert response.get('Item')['local'] == response.get('Item')['local']
-    assert response.get('Item')['estado_item'] == response.get('Item')['estado_item']
-    assert response.get('Item')['valor_pago'] == response.get('Item')['valor_pago']
-    assert response.get('Item')['status'] == response.get('Item')['status']
+    assert response.get('Item')['PK'] == auction.get('Item')['PK']
+    assert response.get('Item')['SK'] == auction.get('Item')['SK']
+    assert response.get('Item')['valor_pago'] != auction.get('Item')['valor_pago']
+    assert response.get('Item')['observacoes'] != auction.get('Item')['observacoes']
+    assert response.get('Item')['local'] != auction.get('Item')['local']
+    assert response.get('Item')['estado_item'] != auction.get('Item')['estado_item']
+    assert response.get('Item')['valor_pago'] != auction.get('Item')['valor_pago']
+    assert response.get('Item')['status'] != auction.get('Item')['status']
 
 def test_envio_arquivo_s3(s3_mock):
     with patch('scrap.models.database.connect_s3') as mock_connect:
@@ -121,6 +139,6 @@ def test_envio_arquivo_s3(s3_mock):
         data_str = undecoded_data.decode('utf-8')
         data = json.loads(data_str)
         
-        assert data['error'] == error_data['error']
+        assert data['type'] == error_data['type']
         assert data['function'] == error_data['function']
         assert data['body'] == error_data['body']

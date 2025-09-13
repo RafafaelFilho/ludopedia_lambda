@@ -21,10 +21,10 @@ def get_trs(game, headers)-> list:
                 'body':soup.find('body')
             }
             file_path=enviar_erro_s3(error)
-            logging.CRITICAL(f"Erro: Nenhum <tr>, Arquivo gerado: {file_path}")
+            logging.critical(f"Erro: Nenhum <tr>, Arquivo gerado: {file_path}")
             return None
     except Exception as e:
-        logging.ERROR(f'Erro: Não conseguiu conectar com o servidor, ERRO: {e}')
+        logging.error(f'Erro: Não conseguiu conectar com o servidor, ERRO: {e}')
         return None
 
 def parse_tr_to_auction(tr, game, engine) -> dict | None:
@@ -71,23 +71,24 @@ def get_updated_info(auction, headers) -> dict | None:
                 'body':soup.find('body')
             }
             file_path=enviar_erro_s3(error)
-            logging.CRITICAL(f"Erro: 'canceled_tag' foi encontrada mas com texto diferente, Arquivo gerado: {file_path}")
+            logging.critical(f"Erro: 'canceled_tag' foi encontrada mas com texto diferente, Arquivo gerado: {file_path}")
     else:
-            error={
-                'type':'CRITICAL',
-                'function':'get_updated_info',
-                'PK':auction['PK'],
-                'SK':auction['SK'],
-                'body':soup.find('body')
-            }
-            file_path=enviar_erro_s3(error)
-            logging.CRITICAL(f"Erro: Não achou 'canceled_tag', Arquivo gerado: {file_path}")
+        error={
+            'type':'CRITICAL',
+            'function':'get_updated_info',
+            'PK':auction['PK'],
+            'SK':auction['SK'],
+            'body':soup.find('body')
+        }
+        file_path=enviar_erro_s3(error)
+        logging.critical(f"Erro: Não achou 'canceled_tag', Arquivo gerado: {file_path}")
     return None
 
 
 
 def canceled_info():
     return {
+
         'status':'cancelado',
         'data_alteracao':str(datetime.now()-timedelta(hours=3))
     }
@@ -101,6 +102,8 @@ def complement_info(auction, soup):
             local=soup.find_all('div',attrs=('class','media-body'))[3].text.split('(')[1].split(')')[0]
             estado_item = soup.find_all('div',attrs=('class','col-xs-12 col-md-6'))[3].text.split(':')[1].strip()
             info={
+                'PK':auction['PK'],
+                'SK':auction['SK'],
                 'observacoes':obs,
                 'local':local,
                 'estado_item': 0 if estado_item=='Usado' else 1,
@@ -118,7 +121,7 @@ def complement_info(auction, soup):
             'body':soup.find('body')
         }
         file_path=enviar_erro_s3(error)
-        logging.CRITICAL(f"Erro: A pagina esta diferente, Arquivo gerado: {file_path}")
+        logging.critical(f"Erro: A pagina esta diferente, Arquivo gerado: {file_path}, ERRO: {e}")
 
 def finish_info(auction, soup):
     try:
@@ -140,5 +143,13 @@ def finish_info(auction, soup):
         else:
             info={}
         return info
-    except:
-        print('erro')
+    except Exception as e:
+        error={
+            'type':'CRITICAL',
+            'function':'finish_info',
+            'PK':auction['PK'],
+            'SK':auction['SK'],
+            'body':soup.find('body')
+        }
+        file_path=enviar_erro_s3(error)
+        logging.critical(f"Erro: Algum erro na coleta de informações para a finalização: {file_path}, ERRO: {e}")

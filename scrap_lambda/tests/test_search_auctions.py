@@ -11,7 +11,7 @@ def testar_ERRO_searcher_com_uma_pesquisa_que_vai_gerar_dois_registros_de_leilao
         #mockando pagina de anuncions
         with open(r'data\red_cathedral_pagina_anuncios_jogo.txt','r',encoding='utf-8') as f:
             html_mock=f.read()
-        url_mock=f"https://ludopedia.com.br/jogo/the_red_cathedral?v=anuncios"
+        url_mock=f"https://ludopedia.com.br/jogo/the-red-cathedral?v=anuncios"
         responses.add(
             responses.GET,
             url_mock,
@@ -21,7 +21,9 @@ def testar_ERRO_searcher_com_uma_pesquisa_que_vai_gerar_dois_registros_de_leilao
         )
 
         headers={'User-Agent':'test-agent'}
-        SearchAuctions(headers).run()
+        batch=20
+        searcher=SearchAuctions(headers, batch)
+        searcher.run()
 
         response=table_dynamodb_mock.query(
             IndexName='TipoRegistroIndex',
@@ -40,7 +42,7 @@ def testar_ERRO_searcher_com_uma_pesquisa_que_vai_gerar_um_registro_de_leilao(ta
         #mockando pagina de anuncions
         with open(r'data\red_cathedral_pagina_anuncios_jogo.txt','r',encoding='utf-8') as f:
             html_mock=f.read()
-        url_mock=f"https://ludopedia.com.br/jogo/the_red_cathedral?v=anuncios"
+        url_mock=f"https://ludopedia.com.br/jogo/the-red-cathedral?v=anuncios"
         responses.add(
             responses.GET,
             url_mock,
@@ -56,7 +58,9 @@ def testar_ERRO_searcher_com_uma_pesquisa_que_vai_gerar_um_registro_de_leilao(ta
         data_antes=response.get('Items')
 
         headers={'User-Agent':'test-agent'}
-        SearchAuctions(headers).run()
+        batch=20
+        searcher=SearchAuctions(headers, batch)
+        searcher.run()
 
         response=table_dynamodb_mock.query(
             IndexName='TipoRegistroIndex',

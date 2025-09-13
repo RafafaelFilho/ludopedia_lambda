@@ -8,12 +8,21 @@ def connect_database():
     table=dynamodb.Table(settings.TABLE_NAME)
     return table
 
-def download_active_auctions(table):
-    response = table.query(
-        IndexName='StatusIndex',
-        KeyConditionExpression=Key('status').eq('em andamento')
-    )
-    return response
+def download_active_auctions(table, batch_size, exclusive_key_start=None):        
+    kwargs = {
+        'IndexName': 'StatusIndex',
+        'KeyConditionExpression': Key('status').eq('em andamento'),
+        'Limit': batch_size
+    }
+    if exclusive_key_start:
+        info_key={'ExclusiveStartKey':exclusive_key_start}
+        kwargs.update(info_key)
+
+    response = table.query(**kwargs)
+    leiloes=response.get('Items')
+    exclusive_key_start=response.get('LastEvaluatedKey')
+    has_more=True if exclusive_key_start else False
+    return leiloes, exclusive_key_start, has_more
 
 def download_games(table, batch_size, exclusive_key_start=None):        
     kwargs = {
@@ -47,25 +56,27 @@ def register_data(table, data_list):
     for data in data_list:
         table.put_item(Item=data)
 
-def registry_update(table, info, register):
-    update_expressions = []
-    expression_values = {}
-    expression_names = {}
+def registry_update(table, update_info):
+    for info in update_info:
+        update_expressions = []
+        expression_values = {}
+        expression_names = {}
 
-    for i, (campo, valor) in enumerate(info.items()):
-        placeholder = f":val{i}"
-        name_placeholder = f"#field{i}"
-        update_expressions.append(f"{name_placeholder} = {placeholder}")
-        
-        expression_names[name_placeholder] = campo
-        expression_values[placeholder] = valor
+        for i, (campo, valor) in enumerate(info.items()):
+            if campo!='PK' and campo!='SK':
+                placeholder = f":val{i}"
+                name_placeholder = f"#field{i}"
+                update_expressions.append(f"{name_placeholder} = {placeholder}")
+                
+                expression_names[name_placeholder] = campo
+                expression_values[placeholder] = valor
 
-    response=table.update_item(
-        Key={'PK': register['PK'], 'SK': register['SK']},
-        UpdateExpression='SET ' + ', '.join(update_expressions),
-        ExpressionAttributeValues=expression_values,
-        ExpressionAttributeNames=expression_names
-    )
+        response=table.update_item(
+            Key={'PK': info['PK'], 'SK': info['SK']},
+            UpdateExpression='SET ' + ', '.join(update_expressions),
+            ExpressionAttributeValues=expression_values,
+            ExpressionAttributeNames=expression_names
+        )
     return response
 
 def connect_s3():

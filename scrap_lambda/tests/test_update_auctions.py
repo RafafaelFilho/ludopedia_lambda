@@ -20,7 +20,8 @@ def testar_updater_com_uma_pesquisa_que_vai_gerar_atualizacao(table_dynamodb_moc
         )
 
         headers={'User-Agent':'test-agent'}
-        UpdateAuctions(headers).run()
+        batch=20
+        UpdateAuctions(headers, batch).run()
 
         response=table_dynamodb_mock.query(
             IndexName='TipoRegistroIndex',
