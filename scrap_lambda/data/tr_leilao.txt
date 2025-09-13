@@ -1,0 +1,37 @@
+								<tr >
+
+					
+
+					<td >					
+
+						Jogo					</td>
+
+					<td>
+
+						Rio de Janeiro					</td>
+
+					<td>
+
+						Usado					</td>
+
+					<td  >
+
+						<span class="anuncio-sub-titulo " style="margin-left: 5px" title=""></span>
+
+					</td>
+
+					<td  class="text-right">
+
+						<span class="proximo_lance" >
+
+						R$ 110,00					
+
+						</span>
+
+					</td>
+
+					<td class="text-right">
+
+					<a href="https://ludopedia.com.br/leilao/627426/the-red-cathedral" class="btn btn-success btn-sm">Leilão</a>					</td>
+
+				</tr>

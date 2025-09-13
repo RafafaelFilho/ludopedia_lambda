@@ -1,0 +1,12 @@
+# tipos de arquivos
+*.db
+*.ipynb
+
+# pastas
+.venv/
+__pycache__/
+
+# arquivos
+.env
+.coverage
+*dev.py

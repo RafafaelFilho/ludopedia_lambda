@@ -1,0 +1,37 @@
+<tr >
+
+					
+
+					<td >					
+
+						Jogo					</td>
+
+					<td>
+
+						Sao Paulo					</td>
+
+					<td>
+
+						Lacrado					</td>
+
+					<td  >
+
+						<span class="anuncio-sub-titulo " style="margin-left: 5px" title=""></span>
+
+					</td>
+
+					<td  class="text-right">
+
+						<span class="proximo_lance" >
+
+						R$ 272,80					
+
+						</span>
+
+					</td>
+
+					<td class="text-right">
+
+					<a href="https://ludopedia.com.br/produto/33825/the-red-cathedral?ref=jogo_mercado" class="btn btn-primary btn-sm" >Anúncio</a>					</td>
+
+				</tr>

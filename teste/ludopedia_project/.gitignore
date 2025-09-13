@@ -1,0 +1,21 @@
+# Arquivos de ambiente
+.env
+.venv/
+
+# Tipos de arquivo para não entrar
+*.db
+*.pem
+*.csv
+*.pbix
+*.ipynb
+
+# Cache
+__pycache__/
+
+# Outros arquivos
+teste.py
+exportar_csv.py
+atualizar_sqlite.py
+ler_csv.py
+info.txt
+leitura_api.py

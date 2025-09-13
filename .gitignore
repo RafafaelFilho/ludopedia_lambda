@@ -1,0 +1,19 @@
+# Arquivos de ambiente
+.env
+.venv/
+
+# Tipos de arquivo para não entrar
+*.db
+*.pem
+*.csv
+*.pbix
+*.ipynb
+
+# Cache
+__pycache__/
+
+# pastas
+help_files/
+github_files/
+python/
+python.zip

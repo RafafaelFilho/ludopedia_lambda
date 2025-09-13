@@ -1,0 +1,1528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml" 
+	  lang="pt-BR"
+>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	<title>Leilão - The Red Cathedral</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+	<meta name="title" content="Leilão - The Red Cathedral">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+		<meta property="og:description" name="description" content="" />
+	<meta property="og:title" content="Leilão - The Red Cathedral"/>
+	<meta property="og:name" content="Leilão - The Red Cathedral"/>
+	<meta property="og:caption" content="ludopedia.com.br"/>
+	<meta name="og:site_name" content="Ludopedia">
+	<meta property="fb:app_id" content="1499182690294881"/>
+		<link rel="image_src" href="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/images/logo_ludopedia.jpg"/><meta property="og:image" content="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/images/logo_ludopedia.jpg"/>		<meta name="keywords" content="Jogos de Tabuleiro, Jogo de Tabuleiro, Tabuleiro, manual de jogo, Jogo, Jogos, Hobby, Análises, Novidades, Board Game, Boardgame, Card Games, Ludocast, Podcast, Videos de Jogos, Imagens de Jogos, Novidades, Party Games, regras, Jogos Digitais, RPG, Magic the gathering, Anime, Zombicide, Game of Thrones, Jogos Infantis, war, monopoly, brinquedo" />
+	<meta name="description" content="" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Proza%20Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700" rel="stylesheet"></link>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+	<!--  ICONS  -->
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="https://ludopedia.com.br/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://ludopedia.com.br/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://ludopedia.com.br/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://ludopedia.com.br/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://ludopedia.com.br/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://ludopedia.com.br/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://ludopedia.com.br/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://ludopedia.com.br/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://ludopedia.com.br/apple-touch-icon-180x180.png">	
+	<link rel="icon" type="image/png" href="https://ludopedia.com.br/favicon-16x16.png">
+	<link rel="icon" type="image/png" href="https://ludopedia.com.br/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://ludopedia.com.br/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="https://ludopedia.com.br/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="https://ludopedia.com.br/favicon-16x16.png" sizes="16x16">
+	
+	
+ 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/dist/nifityludo.min.css??v=2.0.61" rel="stylesheet">	
+	
+	
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<link href="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/dist/themes/type-a/theme-ocean.css" rel="stylesheet">
+	
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >				
+		
+	
+	<link rel="stylesheet" href="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/dist/ludopedia_novo.min.css?version=2.1.86"><link rel="stylesheet" href="https://ludopedia.com.br/css/leilao.css?version=2.1.86"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css">	
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			</head><!-- Google tag (gtag.js) -->		
+        		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CN7DC47P72"></script> <script>
+            		window.dataLayer = window.dataLayer || [];
+            		function gtag(){dataLayer.push(arguments);}
+            		gtag('js', new Date());
+            		
+            		gtag('config', 'G-CN7DC47P72');
+            	</script> <body > <div id="fb-root"></div>	<div id="container" 
+					class="  navbar-fixed mainnav-fixed    mainnav-sm  ">
+			<header  >
+	<div id="topbar">
+		<a href="#" id="btn-menu-principal"><i class="fa fa-navicon fa-lg"></i>
+					</a>
+		<a href="https://ludopedia.com.br/"><img src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/images/brand.svg" alt="Logo Ludopedia" id="ludo-top-icon"></a>
+		<div id="topbar-menus">
+			<!-- Novidades -->
+			<div class="dropdown">
+				<a class="dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Novidades
+					<span class="fa fa-chevron-down"></span>					
+				</a>
+				<div class="dropdown-menu" >
+					<div class="dropdown-content">
+						<ul>
+							<li class="menu-item-header">Informações</li>
+							<li><a href="https://ludopedia.com.br/canal/ludonews">Ludonews</a></li>
+							<li><a href="https://ludopedia.com.br/lancamentos?v=ultimos">Lançamentos</a></li>
+							
+							
+						</ul>
+						<ul>
+							<li class="menu-item-header">O que vem por ai</li>
+							
+							<li><a href="https://ludopedia.com.br/lancamentos?v=proximos">Em Breve</a></li>
+							<li><a href="https://ludopedia.com.br/lancamentos?fl_status=3">Anúncios</a></li>	
+							<li><a href="https://ludopedia.com.br/lancamentos?v=fc">Financiamento Coletivo</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Jogos -->
+			<div class="dropdown">
+				<a class="dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Jogos
+					<span class="fa fa-chevron-down"></span>					
+				</a>
+				<div class="dropdown-menu" >
+					<div class="dropdown-content">
+						<ul>
+							<li class="menu-item-header">Pesquisa</li>
+							<li><a href="https://ludopedia.com.br/search_jogo">Todos os Jogos</a></li>
+							<li><a href="https://ludopedia.com.br/editoras">Editoras</a></li>
+							<li><a href="https://ludopedia.com.br/dominios">Domínios</a></li>
+							<li><a href="https://ludopedia.com.br/categorias">Categorias</a></li>
+							<li><a href="https://ludopedia.com.br/temas">Temas</a></li>
+							<li><a href="https://ludopedia.com.br/mecanicas">Mecânicas</a></li>
+						</ul>
+						<ul>
+							<li class="menu-item-header">Ranking</li>
+							<li><a href="https://ludopedia.com.br/ranking">Board Games</a></li>
+							<li><a href="https://ludopedia.com.br/ranking?tipo=rpg">RPG</a></li>
+							<li><a href="https://ludopedia.com.br/ranking?tipo=outros">+Rankings</a></li>							
+						</ul>
+						<ul>
+							<li class="menu-item-header">Por Dentro</li>
+							<li><a href="https://ludopedia.com.br/canal/ludozine">Ludozine</a></li>
+							<li><a href="https://ludopedia.com.br/posts?id_dominio_postagem=3">Análises</a></li>
+							<li><a href="https://ludopedia.com.br/forum?v=topicos&id_forum_tipo=3">Dúvida de Regras</a></li>
+							<li><a href="https://ludopedia.com.br/posts?id_dominio_postagem=17">Aprenda a Jogar</a></li>							
+							<li><a href="https://ludopedia.com.br/posts?id_dominio_postagem=25">Jogatinas</a></li>
+						</ul>
+						<ul>
+							<li class="menu-item-header">Ludopedia</li>
+							<li><a href="https://ludopedia.com.br/premio">Prêmio Ludopedia</a></li>
+							<li><a href="https://ludopedia.com.br/censo/resultado">Censo Ludopedia</a></li>
+							<li class="menu-item-header mar-top">Colaborar</li>
+							<li><a href="https://ludopedia.com.br/cadastro_jogos">Cadastro de Jogo</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Comunidade -->
+			<div class="dropdown">
+				<a class="dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Comunidade
+					<span class="fa fa-chevron-down"></span>					
+				</a>
+				<div class="dropdown-menu" >
+					<div class="dropdown-content">
+						<ul>
+							<li class="menu-item-header">Fórum</li>
+							<li><a href="https://ludopedia.com.br/forum?v=foruns">Todos os fóruns</a></li>
+							<li><a href="https://ludopedia.com.br/forum?v=24horas">Tópicos Recentes</a></li>
+							<li><a href="https://ludopedia.com.br/forum?v=24horas">Últimas 24 horas</a></li>
+							
+						</ul>
+						<ul>
+							<li class="menu-item-header">Listas</li>
+							<li><a href="https://ludopedia.com.br/listas">Todas as listas</a></li>
+							<li><a href="https://ludopedia.com.br/listas?v=listas&o=views">Listas Mais Vistas</a></li>
+														
+						</ul>
+						<ul>
+							<li class="menu-item-header">Mídias</li>
+							<li><a href="https://ludopedia.com.br/canais">Canais</a></li>
+							<li><a href="https://ludopedia.com.br/podcast_episodios">Podcasts</a></li>
+						</ul>
+						<ul>
+							<li class="menu-item-header">Conteúdo</li>
+							
+							<li><a href="https://ludopedia.com.br/grupo_pesquisa">Grupos</a></li>
+							<li><a href="https://ludopedia.com.br/arquivos">Arquivos</a></li>
+							<li><a href="https://ludopedia.com.br/imagens">Imagens</a></li>
+							<li><a href="https://ludopedia.com.br/videos">Videos</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Mercado -->
+			<div class="dropdown">
+				<a class="dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Mercado
+					<span class="fa fa-chevron-down"></span>					
+				</a>
+				<div class="dropdown-menu" >
+					<div class="dropdown-content">
+						<ul>
+							<li class="menu-item-header">Ludostore</li>
+							<li><a href="https://ludopedia.com.br/loja">Marketplace</a></li>
+							<li><a href="https://ludopedia.com.br/leiloes">Leilões</a></li>
+							<li><a href="https://ludopedia.com.br/anuncios">Todos os Anúncios</a></li>
+							<li><a href="https://ludopedia.com.br/cadastra_produto" class="btn-main-btn-venda">Quero Vender</a></li>							
+						</ul>
+						<ul>
+							<li class="menu-item-header">Smart Trails</li>
+							<li><a href="https://ludopedia.com.br/loja/categorias">Todas as Categorias</a></li>
+							<li><a href="https://ludopedia.com.br/loja/ultimos-lancamentos">Lançamentos</a></li>
+														
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+						
+		</div>
+		<div id="topbar-right">
+			<!-- Vue Main Search -->
+			<div id="main-search" >
+				<div class="search-box">
+					<i class="fa fa-search"></i>
+					<form action="https://ludopedia.com.br/search">
+						<input name="search" placeholder="O que você procura?" autocomplete="off" v-model="search"  v-on:focus="focusIn" v-on:blur="focusOut" >
+					</form>
+					<i class="fa fa-close"></i>
+				</div>
+				<div class="search-result" v-if="(search != '') " v-on:mouseover="hoveredResult=true" v-on:mouseleave="hoveredResult=false">
+					<div class="search-buttons">
+						<a class="btn " :class="{'selected':tp_search=='j'}" @click.prevent="setTpSearch('j')" >Jogos ({{totalJogos}})</a>
+						<a class="btn " :class="{'selected':tp_search=='a'}"  @click.prevent="setTpSearch('a')" >Mercado ({{totalAnuncios}})</a>
+						<a class="btn " :class="{'selected':tp_search=='t'}" @click.prevent="setTpSearch('t')">Tópicos ({{totalTopicos}})</a>
+						<a class="btn " :class="{'selected':tp_search=='u'}" @click.prevent="setTpSearch('u')">Usuários ({{totalUsuarios}})</a>
+						<a class="btn " :class="{'selected':tp_search=='c'}" @click.prevent="setTpSearch('c')">Canais ({{totalCanais}})</a>
+						<a class="btn " :class="{'selected':tp_search=='l'}" @click.prevent="setTpSearch('l')">Listas ({{totalListas}})</a>						
+					</div>
+					<div v-if="isSearching" class="text-center pad-all"  >
+						<span class="fa fa-spin fa-spinner"></span>
+					</div>
+					
+					<div v-if="!isSearching">
+						<div v-if="tp_search=='j'">
+							<div v-if="jogos.length==0" class="text-center pad-all">Nenhum Jogo Encontrado</div>
+							<ul v-else>
+								<li v-for="jogo in jogos" >
+									<a :href="jogo.link"><img class="jogo-capa-sm" :src="jogo.thumb.replace('_t','_s')" ></a>
+									<div class="sr-item-body"><a class="link-elipsis"  :href="jogo.link">{{jogo.nm_jogo}} <span class="text-muted text-sm">({{jogo.ano_publicacao}})</span></a>
+											<span class="sr-item-info ">{{jogo.nm_distribuidora}} <span class="dot"></span> {{jogo.qt_jogadores_str}} <span class="dot"></span> {{jogo.tempo_jogo}}</span></div>								
+								</li>
+							</ul>						
+						</div>
+						
+						<div v-if="tp_search=='a'">
+							<div v-if="anuncios.length==0" class="text-center pad-all">Nenhum Anúncio Encontrado</div>
+							<ul v-else>
+								<li v-for="anuncio in anuncios" >
+									
+									<a :href="anuncio.link"><img class="jogo-capa-sm" :src="anuncio.thumb" ></a>
+									
+									<div class="sr-item-body">
+										<a class="link-elipsis"  :href="anuncio.link + '#resultados'">{{anuncio.nm_item}}</a>
+										<span class="sr-item-info ">{{anuncio.qtde}} anúncios <span class="dot"></span> A partir de {{anuncio.vl_venda|formataValor}}</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div v-if="tp_search=='t'">
+							<div v-if="topicos.length==0" class="text-center pad-all">Nenhum Tópico Encontrado</div>
+							<ul v-else>
+								<li v-for="topico in topicos" >
+									<a :href="topico.link"><img class="jogo-capa-sm" :src="topico.thumb" ></a>
+									<div class="sr-item-body">
+										<a class="link-elipsis"  :href="topico.link">{{topico.titulo}}</a>
+										<span class="sr-item-info ">Por {{topico.usuario}} <span v-if="topico.nm_jogo"><span class="dot"></span> {{topico.nm_jogo}}</span> </span>
+									</div>								
+								</li>
+							</ul>
+													
+						</div>
+						<div v-if="tp_search=='l'">
+							<div v-if="listas.length==0" class="text-center pad-all">Nenhuma Lista Encontrada</div>
+							<ul v-else>
+								<li v-for="lista in listas" >
+									<a :href="lista.link"><img class="lista-capa-sm" :src="lista.thumb" ></a>
+									<div class="sr-item-body">
+										<a class="link-elipsis"  :href="lista.link">{{lista.nm_lista}}</a>
+										<span class="sr-item-info ">Por {{lista.usuario}} <span class="dot"></span> {{lista.qt_itens|plural('item', 'itens')}}</span>
+									</div>								
+								</li>
+							</ul>
+													
+						</div>
+						<div v-if="tp_search=='u'">
+							<div v-if="usuarios.length==0" class="text-center pad-all">Nenhum Usuário Encontrado</div>
+							<ul v-else>
+								<li v-for="usuario in usuarios" >
+
+									<a class="" :href="usuario.link"><img class="jogo-capa-sm " :src="usuario.thumb" ></a>
+															
+									<div class="sr-item-body">
+										<a class="link-elipsis"  :href="usuario.link">{{usuario.usuario}}</a>
+										<span class="sr-item-info">Membro desde {{usuario.dt_cadastro|mesAnoExtenso}}</span> 
+									
+									</div>
+								</li>
+							</ul>
+													
+						</div>
+						<div v-if="tp_search=='c'">
+							<div v-if="canais.length==0" class="text-center pad-all">Nenhum Canal Encontrado</div>
+							<ul v-else>
+								<li v-for="canal in canais" >
+									<a class="" :href="canal.link"><img class="jogo-capa-sm" :src="canal.thumb" ></a>
+															
+									<div class="sr-item-body">
+										<a class="link-elipsis"  :href="canal.link">{{canal.nm_canal}}</a>
+										<span class="sr-item-info">{{canal.qt_postagens|plural('postagem','postagens')}} <span class="dot"></span>Última {{canal.dt_ultima_postagem|dataHoraHuman}}</span>
+									</div>
+									
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pad-all"  style="padding-top:0px">
+						<a v-if="jogos.length>0" :href="'https://ludopedia.com.br/search?search=' + search">Ver todos os resultados ({{totalJogos}}) <span class="fa fa-chevron-right text-xs"></span></a>					   					
+						<a v-if="anuncios.length>0 && tp_search=='a'"  :href="'https://ludopedia.com.br/anuncios?nm_jogo=' + search">Ver todos os resultados ({{totalAnuncios}}) <span class="fa fa-chevron-right text-xs"></span></a>						
+						<a v-if="topicos.length>0 && tp_search=='t'"  :href="'https://ludopedia.com.br/forum?search=' + search">Ver todos os resultados ({{totalTopicos}}) <span class="fa fa-chevron-right text-xs"></span></a>
+						<a v-if="usuarios.length>0 && tp_search=='u'" :href="'https://ludopedia.com.br/search_user?search=' + search">Ver todos os resultados ({{totalUsuarios}}) <span class="fa fa-chevron-right text-xs"></span></a>
+						<a v-if="canais.length>0 && tp_search=='c'" :href="'https://ludopedia.com.br/canais?v=canais&search=' + search">Ver todos os resultados ({{totalCanais}}) <span class="fa fa-chevron-right text-xs"></span></a>						   
+						<a v-if="listas.length>0 && tp_search=='l'" :href="'https://ludopedia.com.br/listas?search=' + search">Ver todos os resultados ({{totalListas}}) <span class="fa fa-chevron-right text-xs"></span></a>
+					</div>
+				</div>				
+			</div>
+			<!-- End Vue -->
+			<a href="" id="top-bar-search-btn" class="btn-topbar-right"><i class="fa fa-search "></i></a>
+						<a href="https://ludopedia.com.br/loja" class="btn-topbar-right"  style="position: relative;" ><i class="fa fa-shopping-cart"></i>
+							 </a>
+			
+							<a href="" class="btn-login btn-topbar-right hidden-lg" style="background-color:#f3da77!important"><i class="fa fa-user hidden-md "></i></a>
+				<a href=""  class="btn btn-clear hidden-xs btn-login" style="background-color:#f3da77!important" class="btn-topbar-right">Entrar</a>
+				<a href="https://ludopedia.com.br/novousuario" class="btn btn-main hidden-xs btn-cadastra-usuario btn-topbar-right">Cadastre-se</a>			
+					</div>
+    </div>
+   
+</header>
+		<div id="modal-login" class="modal modal-full-xs fade ">
+		<div class="modal-dialog">
+			
+<div class="modal-content modal-content-flex pad-all">
+	<div class="modal-content-header pad-hor">
+				<a data-dismiss="modal" href><i class="fa fa-close close-modal"  ></i></a>
+				<h3 class="modal-title m-v-20">Acesse sua conta</h3>
+	</div>
+	<div class="modal-content-body pad-hor">
+		<form method="post"  id="md-login-usuario" class="md-login-usuario" action="https://ludopedia.com.br/login?redirect=https%3A%2F%2Fludopedia.com.br%2Fleilao%2F627426%2Fthe-red-cathedral">
+									
+			<div class="mar-btm">
+				<label>Email</label>
+				<input class="form-control fc-lg" required="required" name="email">
+				<label class="pull-right mar-ver"><a href="https://ludopedia.com.br/reenviaativacao" tabindex="-1">Reenviar Email de Ativação</a> </label>
+			</div>
+			<div class="mar-btm">
+					<label>Senha</label>
+					<input class="form-control" type="password" required="required" name="pass">
+					<label class="pull-right mar-ver"><a href="https://ludopedia.com.br/esqueci_senha" tabindex="-1">Esqueceu a senha?</a> </label>
+			</div>
+			<button type="submit" class="btn btn-gold btn-block btn-main font2 bold btn-xg">ENTRAR</button>
+			<a href="" class="btn btn-primary btn-block  font2 bold btn-lg m-t-10 btn-cadastra-usuario">Crie sua Conta</a>
+			<div class="mar-ver text-center">Ou acesse com as redes sociais</div>
+			
+			<a href="" class="btn-login-social mar-btm btn-facebook-login" id="btn-facebook-login">
+				<i class="fa fa-facebook  fa-lg" style="color : #337ab7"></i>
+				<label>Acessar com <b>Facebook</b></label>
+			</a>
+			<a href="https://accounts.google.com/o/oauth2/auth?response_type=code&access_type=online&client_id=590158961819-8mgo3pr8fh5tsbomlkm3so66pp6v1u9q.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fludopedia.com.br%2Flogingoogle&state&scope=email%20profile&approval_prompt=auto" class="btn-login-social">
+				<i>
+					<img src="https://ludopedia.com.br/images/googleicon.svg" style="width: 20px">
+				</i>
+				<label>Acessar com <b>Google</b></label>
+			</a>
+		</form>
+	</div>				
+</div>		</div>
+	</div>
+	
+			<div id="modal-cadastro-usuario" class="modal modal-full-xs fade ">
+			<div class="modal-dialog">
+				
+<div class="modal-content modal-content-flex pad-all" id="cadastro-usuario">	
+		<div class="modal-content-header pad-hor">
+		<a data-dismiss="modal" href><i class="fa fa-close close-modal"  ></i></a>
+	</div>
+		<div class="modal-content-body pad-hor">
+		<h3 class="modal-title m-v-20">Crie sua conta</h3>
+		<form method="post" class="frm-cadastro-usuario" action="https://ludopedia.com.br/novousuario" >
+						 
+			<div class="mar-btm">
+				<label>Nome de Usuário</label>
+				<input class="form-control " required="required" name="usuario" id="usuario" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" value="" autocomplete="off">
+			</div>
+			<div class="mar-btm">
+				<label>Email</label>
+				<input class="form-control " required="required" name="email" type="email" id="email" value="">
+			</div>
+			<div class="mar-btm">
+				<label>Senha</label>
+				<input class="form-control" type="password" required="required" name="password" id="password"  autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+
+			</div>
+						
+						<div class="mar-ver">
+				<div class="checkbox ">
+					<label ><input type="checkbox" name="fl_newsletter" id="fl_newsletter" value="1" checked="checked" > Desejo receber notícias e novidades</label>
+				</div>
+			</div>
+			<div class="mar-ver">
+				<div class="checkbox " >
+					<label ><input type="checkbox" required="required" name="fl_termo" id="fl_termo" value="1" checked="checked" aria-required="true"> Estou de acordo com os <a href="https://www.ludopedia.com.br/termo_aceite">Termos de uso</a></label>
+				</div>
+			</div>
+			<div class="pad-btm">
+				<div class="g-recaptcha" data-sitekey="6LetmzUUAAAAANpCNpIN_cCsPo0gRdViuPGDkJQB"></div>
+			</div>
+			<button type="submit" class="btn btn-gold btn-block btn-main font2 bold btn-xg">CRIAR CONTA</button>
+			<div class="mar-ver text-center">Ou utilize suas redes sociais</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<a href="" class="btn-login-social mar-btm btn-facebook-login " >
+						<i class="fa fa-facebook  fa-lg" style="color : #337ab7"></i>
+						<label>Entrar com <b>Facebook</b></label>
+					</a>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<a href="https://accounts.google.com/o/oauth2/auth?response_type=code&access_type=online&client_id=590158961819-8mgo3pr8fh5tsbomlkm3so66pp6v1u9q.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fludopedia.com.br%2Flogingoogle&state&scope=email%20profile&approval_prompt=auto" class="btn-login-social  mar-btm" >
+						<i>
+							<img src="https://ludopedia.com.br/images/googleicon.svg" style="width: 20px">
+						</i>
+						<label>Entrar com <b>Google</b></label>
+					</a>
+				</div>
+			</div>
+		</form>
+	</div>				
+</div>
+<script>
+$(function(){
+	
+	
+});
+</script>
+			</div>
+		</div>
+				
+<div id="menu-principal" class="modal left fadee faast">
+	<div class="modal-dialog">
+		<div class="modal-content modal-content-flex">
+			<div class="modal-content-header">
+				<h4>Menu de Navegação<a data-dismiss="modal" href><i class="fa fa-close close-modal"  ></i></a></h4>
+			</div>
+			<div class="modal-content-body">	
+				<ul class="mp-level-1">
+				
+					<li class="mp-item-l1 ">
+						<a href="">Novidades<i class="fa fa-chevron-down"></i></a>
+						<div>
+							<ul class="mp-item-l2">
+								<li class="menu-item-header">Informações</li>
+									<li><a href="https://ludopedia.com.br/canal/ludonews">Ludonews</a></li>
+								<li>	<a href="https://ludopedia.com.br/lancamentos?v=ultimos">Lançamentos</a></li>
+								
+								<li class="menu-item-header">O que vêm por aí</li>
+								
+								<li><a href="https://ludopedia.com.br/lancamentos?v=proximos">Em Breve</a></li>
+								<li><a href="https://ludopedia.com.br/lancamentos?fl_status=3">Anúncios</a></li>
+								<li><a href="https://ludopedia.com.br/lancamentos?v=fc">Financiamento Coletivo</a></li>
+								
+							</ul>
+						</div>
+					</li>
+					<li class="mp-item-l1 ">
+						<a href="">Jogos<i class="fa fa-chevron-down"></i></a>
+						<div>
+							<ul class="mp-item-l2">
+									<li class="menu-item-header">Pesquisa</li>
+									<li><a href="https://ludopedia.com.br/search_jogo">Todos os Jogos</a></li>
+									<li><a href="https://ludopedia.com.br/editoras">Editoras</a></li>
+									<li><a href="https://ludopedia.com.br/dominios">Domínios</a></li>
+									<li><a href="https://ludopedia.com.br/categorias">Categorias</a></li>
+									<li><a href="https://ludopedia.com.br/temas">Temas</a></li>
+									<li><a href="https://ludopedia.com.br/mecanicas">Mecânicas</a></li>
+									<li class="menu-item-header">Ranking</li>
+									<li><a href="https://ludopedia.com.br/ranking">Board Games</a></li>
+									<li><a href="https://ludopedia.com.br/ranking?tipo=rpg">RPG</a></li>
+									<li><a href="https://ludopedia.com.br/ranking?tipo=outros">+Rankings</a></li>							
+									<li class="menu-item-header">Por Dentro</li>
+									<li><a href="https://ludopedia.com.br/canal/ludozine">Ludozine</a></li>
+									<li><a href="https://ludopedia.com.br/posts?id_dominio_postagem=3">Análises</a></li>
+									<li><a href="https://ludopedia.com.br/forum?v=topicos&id_forum_tipo=3">Dúvida de Regras</a></li>
+									<li><a href="https://ludopedia.com.br/posts?id_dominio_postagem=17">Aprenda a Jogar</a></li>							
+									<li><a href="https://ludopedia.com.br/posts?id_dominio_postagem=25">Jogatinas</a></li>
+									<li class="menu-item-header">Ludopedia</li>
+									<li><a href="https://ludopedia.com.br/premio">Prêmio Ludopedia</a></li>
+									<li><a href="https://ludopedia.com.br/censo/resultado">Censo Ludopedia</a></li>
+									<li class="menu-item-header">Colaborar</li>
+									<li><a href="https://ludopedia.com.br/cadastro_jogos">Cadastro de Jogo</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mp-item-l1 ">
+						<a href="">Comunidade<i class="fa fa-chevron-down"></i></a>
+						<div>
+						
+							<ul class="mp-item-l2">
+								<li class="menu-item-header">Fórum</li>
+								<li><a href="https://ludopedia.com.br/forum?v=foruns">Todos os fóruns</a></li>
+								<li><a href="https://ludopedia.com.br/forum?v=24horas">Tópicos Recentes</a></li>
+								<li><a href="https://ludopedia.com.br/forum?v=24horas">Últimas 24 horas</a></li>
+								
+								<li class="menu-item-header">Listas</li>
+								<li><a href="https://ludopedia.com.br/listas">Todas as listas</a></li>
+								<li><a href="https://ludopedia.com.br/listas?v=listas&o=views">Listas Mais Vistas</a></li>
+															
+								<li class="menu-item-header">Mídias</li>
+								<li><a href="https://ludopedia.com.br/canais">Canais</a></li>
+								<li><a href="https://ludopedia.com.br/podcast_episodios">Podcasts</a></li>
+								<li class="menu-item-header">Conteúdo</li>
+								
+								<li><a href="https://ludopedia.com.br/grupo_pesquisa">Grupos</a></li>
+								<li><a href="https://ludopedia.com.br/arquivos">Arquivos</a></li>
+								<li><a href="https://ludopedia.com.br/imagens">Imagens</a></li>
+								<li><a href="https://ludopedia.com.br/videos">Videos</a></li>
+							</ul>						
+							
+						</div>
+					</li>
+					
+					
+					<li class="mp-item-l1 ">
+						<a href="">Mercado<i class="fa fa-chevron-down"></i></a>
+						<div>
+							<ul class="mp-item-l2 ">
+								<li class="menu-item-header">Ludostore</li>
+								<li><a href="https://ludopedia.com.br/loja">Marketplace</a></li>
+								<li><a href="https://ludopedia.com.br/leiloes">Leilões</a></li>
+								<li><a href="https://ludopedia.com.br/anuncios">Todos os Anúncios</a></li>
+								<li><a href="https://ludopedia.com.br/cadastra_produto" class="btn-main-btn-venda">Quero Vender</a></li>							
+							</ul>
+							<ul class="mp-item-l2 ">
+								<li class="menu-item-header">Smart Trails</li>
+								<li><a href="https://ludopedia.com.br/loja/categorias">Todas as Categorias</a></li>
+								<li><a href="https://ludopedia.com.br/loja/ultimos-lancamentos">Últimos Lançamentos</a></li>
+															
+							</ul>							
+						</div>		
+					</li>
+					
+									</ul>
+			</div>
+					</div>
+		
+	</div>
+</div>
+
+
+<div id="menu-usuario" class="modal right fade fast">
+	<div class="modal-dialog">	
+		<div class="modal-content">
+			<div class="menu-usuario-header">
+				<a data-dismiss="modal" href><i class="fa fa-close close-modal"  ></i></a>
+				
+				<div class="usuario-header-info">
+					<h4 class="hidden-xs">Minha Conta <a data-dismiss="modal" href></a></h4>
+					<div class="usuario-header-profile">
+						<div>
+							<img class="img-circle img-user-lg media-object" src="https://ludopedia.com.br/images/auxiliares/avatar_redoma_48.png" alt="Avatar">
+						</div>
+						<div>
+							<h4><a href=""></a></h4>
+						
+							<a href="https://ludopedia.com.br/meeps" class="menu-usuario-meeps">
+								<img src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/images/meeps/meep_25.png">
+								<span style="font-size:13px">0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="menu-usuario-abas">
+					
+					<a href="" @click.prevent="view='perfil'" title="Perfil" :class="{active:view=='perfil'}"><i class="fa fa-user"></i></a>
+					<a href="" @click.prevent="view='mercado'" title="Mercado"  :class="{active:view=='mercado'}"><i class="fa fa-shopping-cart"></i></a>
+					 
+					<a href=""  @click.prevent="view='mensagem'" title="Mensagens"  :class="{active:view=='mensagem'}"><i class="fa fa-envelope"></i></a>
+					<a href=""  @click.prevent="view='configuracao'" title="Configurações"  :class="{active:view=='configuracao'}"><i class="fa fa-wrench"></i></a>
+				</div>
+			</div>
+			<div class="menu-usuario-content">
+				<div id="menu-usuario-perfil"  v-if="view=='perfil'">
+					<ul class="meu-usuario-links">
+						<li class="divider">Usuário</li>
+						<li><a href="https://ludopedia.com.br/usuario/">Perfil<i class="fa fa-chevron-right"></i></a></li>						
+						<li><a href="https://ludopedia.com.br/colecao?lista=colecao&usuario=">Coleção<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/partidas">Partidas<i class="fa fa-chevron-right"></i></a></li>						
+						<li><a href="https://ludopedia.com.br/aprova_partida">Partidas Pendentes <i class="fa fa-chevron-right"></i></a></li>						
+						
+						<li><a href="https://ludopedia.com.br/edit_user_badge">Badges<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/chamados">Chamados<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/grupo_pesquisa?participo=on&tx_pesquisar=1">Grupos<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/canais?v=meus">Canais<i class="fa fa-chevron-right"></i></a></li>						
+						<li><a href="https://ludopedia.com.br/solicitacoes">Edições<i class="fa fa-chevron-right"></i></a></li>						
+						<li><a href="https://ludopedia.com.br/seguindo">Seguindo<i class="fa fa-chevron-right"></i></a></li>
+					</ul>
+					<ul class="meu-usuario-links">
+						<li class="divider">Meeps</li>
+						<li><a href="https://ludopedia.com.br/meeps/saldo">Saldo Meeps<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/meeps">Atividades Meeps<i class="fa fa-chevron-right"></i></a></li>
+					</ul>
+				</div>
+				<div id="menu-usuario-notific" v-if="view=='notificacao'">
+					<label class="menu-title">Notificações</label>
+					<a href="https://ludopedia.com.br/notificacoes" class="pull-right c-gold">Ver tudo <i class="fa fa-chevron-right"></i></a>
+						<ul class="media-list pad-top">
+							<div v-if="isLoadingNotif" class="text-center pad-all"  >
+							<span class="fa fa-spin fa-spinner"></span>
+						</div>
+						<li class="media " v-for="notificacao in notificacoes" >
+							<a :href="notificacao.url">
+								<div class="media-left ">
+									<div class="img-div img-circle media-object" :style="{backgroundImage:`url(${notificacao.thumb})`}"></div>
+																	</div>
+								<div class="media-body ">
+									<span v-html="notificacao.descricao"></span>
+									<div class="media-body-footer c-cinza">{{notificacao.dt_notificacao|dataHoraHuman}}</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="menu-usuario-mensagem" v-if="view=='mensagem'">
+					<label class="menu-title">Mensagens</label>
+					<a href="https://ludopedia.com.br/mensagens" class="pull-right c-gold">Ver tudo <i class="fa fa-chevron-right"></i></a>
+						<ul class="media-list pad-top">
+							<div v-if="isLoadingMsg" class="text-center pad-all"  >
+							<span class="fa fa-spin fa-spinner"></span>
+						</div>
+						<li class="media " v-for="mensagem in mensagens" >
+							<a :href="mensagem.url">
+								<div class="media-left ">
+									<div class="img-div img-circle media-object" :style="{backgroundImage:`url(${mensagem.url_avatar})`}"></div>									
+								</div>
+								<div class="media-body ">
+									<span>{{mensagem.assunto}}</span>
+									<span v-if="mensagem.resumo" class="block text-muted" >({{mensagem.resumo}})</span>
+									
+									<div class="media-body-footer c-cinza">{{mensagem.usuario}} - {{mensagem.dt_mensagem|dataHoraHuman}}</div>
+									
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="menu-usuario-config" v-if="view=='configuracao'">
+					<label class="menu-title">Configurações</label>
+					<a href="https://ludopedia.com.br/configuracoes" class="pull-right c-gold">Ver tudo <i class="fa fa-chevron-right"></i></a>
+						<ul class="media-list pad-top">
+							<li class="media " v-for="config in configuracoes" :key="config.cd_parametro">
+								<div class="media-body ">
+									<span>{{config.descricao}}</span>									
+								</div>
+								<div class="media-right"><input :id="'config_'+config.cd_parametro" class="toggle-switch" type="checkbox"  v-model="config.checked"   
+								@change="gravaParametro(config)"
+								><label :for="'config_'+config.cd_parametro" :disabled="config.changing"></label></div>
+							</li>
+														
+						</ul>
+				</div>
+				<div id="menu-usuario-mercado" v-if="view=='mercado'">
+					<ul class="meu-usuario-links">
+						<li class="divider">Como Comprador</li>
+						<li><a href="https://ludopedia.com.br/meumercado">Meu Mercado<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/compras">Minhas Compras<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/avaliacoes?v=p">Avaliações Pendentes <i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/reembolsos">Reembolsos<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/enderecos">Endereços<i class="fa fa-chevron-right"></i></a></li>
+						
+						
+					
+					</ul>
+					<ul class="meu-usuario-links">
+						<li class="divider">Como Vendedor</li>
+						<li><a href="https://ludopedia.com.br/vendas">Minhas Vendas<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/produtos">Meus Anúncios<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/gerenciar_leiloes">Meus Leilões<i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/perguntas_vendedor">Pergunta não Respondidas <i class="fa fa-chevron-right"></i></a></li>
+						<li><a href="https://ludopedia.com.br/vendas?v=agenvio">Aguardando Envio <i class="fa fa-chevron-right"></i></a></li>						
+						<li><a href="https://ludopedia.com.br/saldo">Meu Saldo<i class="fa fa-chevron-right"></i></a></li>
+						
+						
+					
+					</ul>
+									</div>				
+			</div>
+			<div class="menu-usuario-footer">
+			
+				<a href="https://ludopedia.com.br/faleconosco">Fale conosco</a> <span class="dot"></span> <a href="https://ludopedia.com.br/ajuda">Ajuda</a> <span class="dot"></span> <a href="https://ludopedia.com.br/logout" class="text-danger">Sair da conta</a>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="main-container" > <!--MAIN NAVIGATION-->
+<!--===================================================-->
+
+<nav id="mainnav-container">
+	<div id="mainnav">
+
+		<!--Menu-->
+		<!--================================-->
+		<div id="mainnav-menu-wrap">
+			
+			<div class="nano">
+				<div class="nano-content">
+										<!--================================-->
+					<!--End shortcut buttons-->
+					<ul id="mainnav-menu" class="list-group">
+			
+						<!--Category name-->
+						<li class="list-header">Menu</li>
+						
+							<li class="hidden-lg hidden-md">
+								<form action="https://ludopedia.com.br/search">
+									<div class="form-group mar-no" style="padding: 15px">
+										<input class="form-control" name="search" placeholder="Pesquisar" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+									</div>
+								</form>
+							</li>
+						
+						<!--Menu list item-->
+																		<!--Menu Jogos-->
+						<li >
+							<a href="#">
+								<i class="fa fa-rocket"></i>
+								<span class="menu-title">
+									<strong>Jogos</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li><a href="https://ludopedia.com.br/lancamentos">Lançamentos Nacionais</a></li>
+								<li><a href="https://ludopedia.com.br/ranking">Ranking</a></li>
+								<li><a href="https://ludopedia.com.br/premio">Prêmio Ludopedia</a></li>
+								<li class="list-divider"></li>
+								<li><a href="https://ludopedia.com.br/cadastro_jogos">Cadastrar um jogo</a></li>
+								<li><a href="https://ludopedia.com.br/search_jogo">Pesquisa</a></li>								
+								<li><a href="https://ludopedia.com.br/search_jogo?advsearch=true">Pesquisa Avançada</a></li>
+								<li class="list-divider"></li>
+								<li><a href="https://ludopedia.com.br/editoras">Editoras</a></li>
+								<li><a href="https://ludopedia.com.br/dominios">Domínios</a></li>
+								<li><a href="https://ludopedia.com.br/categorias">Categorias</a></li>
+								<li><a href="https://ludopedia.com.br/temas">Temas</a></li>
+								<li><a href="https://ludopedia.com.br/mecanicas">Mecânicas</a></li>
+								
+								
+							</ul>
+						</li>
+						<!--Menu Canais-->
+						<li >
+							<a href="#">
+								<i class="fa fa-th"></i>
+								<span class="menu-title">
+									<strong>Canais</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li><a href="https://ludopedia.com.br/canais?v=postagens">Últimas Postagens</a></li>
+								<li><a href="https://ludopedia.com.br/canais?v=postagens&fl_inscritos=1">Últimas Postagens - Inscritos</a></li>								
+								<li><a href="https://ludopedia.com.br/canais">Canais</a></li>								
+								<li><a href="https://ludopedia.com.br/canais?v=canais&fl_inscritos=1">Canais - Inscritos</a></li>
+								<li><a href="https://ludopedia.com.br/canais?v=canais&fl_meus_canais=1">Meus Canais</a></li>
+								
+																
+							</ul>
+						</li>
+						<!--Menu Fórum-->
+						<li >
+							<a href="#">
+								<i class="fa fa-comments"></i>
+								<span class="menu-title">
+									<strong>Fórum</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li ><a href="https://ludopedia.com.br/forum?v=foruns">Fóruns</a></li>
+								<li ><a href="https://ludopedia.com.br/forum?v=topicos">Tópicos Recentes</a></li>
+								<li ><a href="https://ludopedia.com.br/forum?v=seguindo">Tópicos que sigo</a></li>
+								<li ><a href="https://ludopedia.com.br/forum?v=24horas">Últimas 24 Horas</a></li>
+								<li ><a href="https://ludopedia.com.br/forum?v=nao_lidos">Tópicos Não Lidos</a></li>
+								<li ><a href="https://ludopedia.com.br/forum?v=favoritos">Tópicos Favoritos</a></li>
+								<li class="list-divider"></li>
+								<li><a href="https://ludopedia.com.br/forum_post">Criar um Tópico</a></li>
+							</ul>
+						</li>
+						<!--Menu Listas-->
+						<li  >
+							<a href="#">
+								<i class="fa fa-th-list"></i>
+								<span class="menu-title">
+									<strong>Listas</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li><a href="https://ludopedia.com.br/listas">Listas Recentes</a></li>
+								<li><a href="https://ludopedia.com.br/listas?v=nao_lidas">Listas Não Lidas</a></li>
+								<li><a href="https://ludopedia.com.br/listas?v=my">Minhas Listas</a></li>
+								<li><a href="https://ludopedia.com.br/listas?v=favoritas">Listas Favoritas</a></li>								
+								<li class="list-divider"></li>
+								<li ><a href="https://ludopedia.com.br/cadastro_ludo_list">Criar uma Lista</a></li>
+								
+							</ul>
+						</li>
+						<!--Menu Anúncios-->
+						<li  >
+							<a href="#">
+								<i class="fa fa-shopping-cart"></i>
+								<span class="menu-title">
+									<strong>Mercado</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li ><a href="https://ludopedia.com.br/loja">Ludostore</a></li>
+								<li class="list-divider"></li>
+																<li ><a href="https://ludopedia.com.br/meumercado">Meu Mercado</a></li>								
+								<li><a href="https://ludopedia.com.br/anuncios">Anúncios</a></li>
+								<li><a href="https://ludopedia.com.br/leiloes">Leilões</a></li>								
+								<li><a href="https://ludopedia.com.br/trocas">Trocas</a></li>
+								<li class="list-divider"></li>								
+								<li ><a href="https://ludopedia.com.br/cadastro_anuncio">Criar um anúncio</a></li>								
+								<li ><a href="https://ludopedia.com.br/cadastra_leilao">Criar um Leilão</a></li>
+							</ul>
+						</li>
+						<!--Menu Videos-->
+						<li  >
+							<a href="#">
+								<i class="fa fa-play-circle"></i>
+								<span class="menu-title">
+									<strong>Vídeos</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li ><a href="https://ludopedia.com.br/videos">Todos os Vídeos</a></li>
+								<li ><a href="https://ludopedia.com.br/videos?id_categoria=1">Análise</a></li>
+								<li ><a href="https://ludopedia.com.br/videos?id_categoria=10">Customização</a></li>
+								<li ><a href="https://ludopedia.com.br/videos?id_categoria=4">Entrevista</a></li>
+								<li ><a href="https://ludopedia.com.br/videos?id_categoria=5">Evento</a></li>
+								<li ><a href="https://ludopedia.com.br/videos?id_categoria=3">Jogatina</a></li>
+								<li ><a href="https://ludopedia.com.br/videos?id_categoria=9">Regras</a></li>
+								<li ><a href="https://ludopedia.com.br/videos?id_categoria=2">Unboxing</a></li>
+								<li class="list-divider"></li>
+								<li><a href="https://ludopedia.com.br/upload_video">Subir um vídeo</a></li>								
+							</ul>
+						</li>
+						<!-- Multimidia -->
+						<li  >
+							<a href="#">
+								<i class="fa fa-image"></i>
+								<span class="menu-title">
+									<strong>Multimídia</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li ><a href="https://ludopedia.com.br/anexos">Arquivos</a></li>								
+								<li ><a href="https://ludopedia.com.br/imagens">Imagens</a></li>								
+								<li class="list-divider"></li>								
+								<li><a href="https://ludopedia.com.br/upload_arquivo">Subir Arquivo</a></li>
+								<li><a href="https://ludopedia.com.br/upload_images">Subir Imagens</a></li>
+							</ul>
+						</li>
+						
+						<!--Menu Podcasts-->
+						<li  >
+							<a href="#">
+								<i class="fa fa-headphones"></i>
+								<span class="menu-title">
+									<strong>Podcasts</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li ><a href="https://ludopedia.com.br/podcasts">Todos Podcasts</a></li>
+								<li><a href="https://ludopedia.com.br/podcast_episodios">Últimos episódios</a></li>
+															</ul>
+						</li>
+						<!--Menu Grupos-->
+						<li  >
+							<a href="#">
+								<i class="fa fa-group"></i>
+								<span class="menu-title">
+									<strong>Grupos</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">
+								<li ><a href="https://ludopedia.com.br/grupo_pesquisa">Pesquisar um Grupo</a></li>
+								<li ><a href="https://ludopedia.com.br/grupo_pesquisa?participo=true&tx_pesquisar=1">Meus Grupos</a></li>
+								<li class="list-divider"></li>
+								<li><a href="https://ludopedia.com.br/cadastra_grupo">Criar um Grupo</a></li>								
+							</ul>
+						</li>
+						<!--Menu Partidas-->
+						<li  >
+							<a href="#">
+								<i class="fa fa-trophy"></i>
+								<span class="menu-title">
+									<strong>Partidas</strong>
+								</span>
+								<i class="arrow"></i>
+							</a>
+							<!--Submenu-->
+							<ul class="collapse ">								
+								<li><a href="https://ludopedia.com.br/partidas?id_usuario=">Minhas Partidas</a></li>								
+								<li ><a href="#" onclick="ludo.novaPartida(0)">Cadastrar uma Partida</a></li>
+							</ul>
+						</li>
+						
+												<!--Menu Admin-->
+												<!--Fale Conosco-->
+						<li  >
+							<a href="#">
+								<i class="fa fa-tag"></i>
+								<span class="menu-title"><strong>Sobre</strong></span>
+							</a>
+							<ul class="collapse ">
+								<li ><a href="https://ludopedia.com.br/faleconosco">Fale Conosco</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--================================-->
+		<!--End menu-->
+
+	</div>
+</nav>
+<!--===================================================-->
+<!--END MAIN NAVIGATION-->				<div id="content-container"><div id="page-content" class="pad-no-xs" style="padding-top:0px"> <!--Breadcrumb-->
+				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--><ol class="breadcrumb  mar-top"><li><a href="https://ludopedia.com.br/"><i class="fa fa-home"></i></a></li><li  ><a href="https://ludopedia.com.br/leiloes">Leilões</a></li><li  ><a href="https://ludopedia.com.br/leiloes?id_leilao=87356">Leilão 87356</a></li><li  class="active"  ><a href="https://ludopedia.com.br/leilao/627426/the-red-cathedral">The Red Cathedral</a></li></ol><!--End Breadcrumb-->
+				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->		<div class="panel ">
+      					<div class="main-panel-body panel-body "><style>
+
+	.vl_compre_ja{font-size:20px ; font-weight: bold;}
+	.cep-container { width: 150px }
+	.vl-produto{ font-size: 30px; font-weight: bold; font-family:-apple-system,system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif}
+    .vl-produto span{ font-size: 16px;  font-weight: normal}
+    .vl-cartao { display: block; font-size: 16px;color: navy;font-family:-apple-system,system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif; font-style: italic}
+    .parcelamento { border: 1px solid #ccc; padding: 10px ; font-size: 12px;font-family:-apple-system,system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif; color:navy; margin: 10px 0px}
+    .parcelamento-title { border-bottom: 1px solid #ccc; width: 100%;margin: 5px;padding-bottom: 5px; text-transform: uppercase;}
+	.images-container{ max-width:  452px; text-align: center; margin: auto;}
+	#main-image { max-width: 100%; max-height: 100%; }
+	.main-image-box { display:table; width : 100%; text-align: center;}
+		
+	.images-container .thumb { margin-right: .8125rem; }
+	
+	.thumb-container { display: inline;}
+	.thumb.selected, .thumb:hover { border: 3px solid #2fb5d2; } 
+	.thumb { box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2); cursor: pointer; margin-bottom: .625rem;}
+	.thumb { max-width:  100%; width : auto!important; height: 100%; margin: auto;}
+	.owl-item .item { text-align: center; }
+	#frete{padding: 5px; }		
+	.product-cover
+	{
+		margin-bottom:  15px;
+		height: 300px;
+		text-align: center;
+		vertical-align: middle;
+		display: table-cell;
+	}
+	.product-cover img {
+    	box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+    	background: #fff;
+    	width : auto;
+    	max-height: 100%;
+    	cursor: pointer;
+	}	
+	.item
+	{
+	    height: 10rem;    
+    	padding: 1rem;
+	}
+
+	.comment-left { float:left; width: 40px;}
+	.comment-right { margin-left : 45px; }
+	
+	.panel-comment {padding: 5px;  border : 1px solid #ccc;border-radius :5px; margin-bottom: 5px; }
+	.comentario-principal { border : 2px solid #8BC34A }
+	.tx_boleto { font-size: 12px; font-weight: normal; }
+	
+	.leilao-dados-lance{ border: 1px solid #ccc; padding: 10px; margin-top: 10px;}
+	
+	.vl-produto { font-size: 28px; font-weight: bold; font-family: -apple-system,system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;}
+	.forma-pgto-ludostore{font-size: 16px;color: navy;font-family:-apple-system,system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif; font-style: italic}
+	.sem-lance { font-size : 24px }
+	
+	.div-lance { display: block; margin-top: 5px}  
+	.div-lance  .lance-combo{ float: left; width: 135px; margin-bottom: .5rem;}
+	#vl_lance { height: 41px}
+		
+	.div-lance .lance-button { float: left; margin-left: 1rem; margin-bottom: .5rem;}
+	
+	.termino > span { font-weight: bold; font-size: 18px}
+	.sub-titulo{font-weight: bold; display: block; margin-bottom: 5px}
+	.inline-cep{border: none;border-bottom: 1px solid #ccc; width: 100px;}
+	
+	.info-forma-pgto {font-size: 12px; font-style: italic; }
+	
+	.total-follow-item { padding: 1px 10px; border: 1px solid; font-size: 12px; border-radius: 5px;  cursor: default;}
+	.row-info > div{ padding: 5px}
+	.badge-vendedor {width:  25px; margin-right: 2px; margin-bottom:5px}
+	.nm-loja{ font-size: 1.1em; font-weight: 600}
+	@media ( max-width:767px ) { 
+		.product-cover{ height: 200px; }
+	}
+	.item-leilao { height: 220px}
+	
+	.badge-vendedor {width:  25px; margin-right: 2px; margin-bottom:5px}
+	.img-vendedor{max-height: 50px;max-width: 50px;display: block;margin: auto;margin-bottom: 5px;margin-top: 2px;}
+	.nm-loja{ font-size: 1.1em; font-weight: 600}
+</style>
+
+
+<div class="row">
+	<div class="col-md-6 ">
+		<div class="images-container">
+			<div class="main-image-box bord-all pad-all">
+				<div class="product-cover">
+					<a href="https://storage.googleapis.com/ludopedia-capas/25605_m.jpg"  rel="grupo" class="fancyimg"><img id="main-image" src="https://storage.googleapis.com/ludopedia-capas/25605_m.jpg" ></a>				
+				</div>			
+			</div>
+			<div class="owl-carousel owl-theme caousel-images product-images js-qv-product-images">
+				    				<div class="item">
+    					<a href="https://storage.googleapis.com/ludopedia-capas/25605_m.jpg" rel="grupo" class="fancyimg">
+    						<img class="thumb  selected"  data-image-md="https://storage.googleapis.com/ludopedia-capas/25605_m.jpg" src="https://storage.googleapis.com/ludopedia-capas/25605_t.jpg" alt="" title="" >
+    					</a>
+    				</div>
+    			    				<div class="item">
+    					<a href="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/83583_5ta9yr8rkj.jpeg" rel="grupo" class="fancyimg">
+    						<img class="thumb  "  data-image-md="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/83583_5ta9yr8rkj.jpeg" src="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/83583_5ta9yr8rkj_t.jpeg" alt="" title="" >
+    					</a>
+    				</div>
+    			    				<div class="item">
+    					<a href="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/77587_5ta9yr8rkj.jpeg" rel="grupo" class="fancyimg">
+    						<img class="thumb  "  data-image-md="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/77587_5ta9yr8rkj.jpeg" src="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/77587_5ta9yr8rkj_t.jpeg" alt="" title="" >
+    					</a>
+    				</div>
+    			    				<div class="item">
+    					<a href="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/cce01_5ta9yr8rkj.jpeg" rel="grupo" class="fancyimg">
+    						<img class="thumb  "  data-image-md="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/cce01_5ta9yr8rkj.jpeg" src="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/cce01_5ta9yr8rkj_t.jpeg" alt="" title="" >
+    					</a>
+    				</div>
+    			    				<div class="item">
+    					<a href="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/1f94c_5ta9yr8rkj.jpeg" rel="grupo" class="fancyimg">
+    						<img class="thumb  "  data-image-md="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/1f94c_5ta9yr8rkj.jpeg" src="https://ludopedia-anuncios.nyc3.cdn.digitaloceanspaces.com/1f94c_5ta9yr8rkj_t.jpeg" alt="" title="" >
+    					</a>
+    				</div>
+    						</div>			
+		</div>
+	</div>
+	
+	<div class="col-md-6">
+		<h3 class="title">The Red Cathedral</h3>
+		<h4></h4>
+		<div class="row row-info">
+							<div class="col-xs-12 "><b>Ficha : </b> <a href="https://ludopedia.com.br/jogo/the-red-cathedral">The Red Cathedral</a></div>
+				<div class="col-xs-12 col-md-6"><b>Edição : </b> 
+				<img class="img-brasil" src="https://ludopedia.com.br/images/auxiliares/brasil.jpg">	<a href="https://ludopedia.com.br/editora/3525/Devir Brasil">Devir Brasil</a>				</div>
+			
+									
+			<div class="col-xs-12 col-md-6"><b>Estado do Item : </b>Usado</div>
+						<div class="col-xs-12">
+				<div class="media" >
+					<div class="media-left">
+						<a href="https://ludopedia.com.br/loja/cassiusf"><img class="img-vendedor" src="https://ludopedia.com.br/uploads/avatar/avatar_118148_1708985186.png"></a>
+					</div>
+					<div class="media-body"><a class="nm-loja" href="https://ludopedia.com.br/loja/cassiusf">cassiusf </a> (Rio de Janeiro/RJ)
+						<div><a href="https://ludopedia.com.br/avaliacoes?id_usuario=118148&v=c"><img class="badge-vendedor" src="https://ludopedia.com.br/images/store/reputacao_5.png"  data-toggle="popover" data-html="true" data-trigger="hover" data-placement="top" data-content="Vendedor possui mais de 90% de avaliações positivas" title="Nível 5" ></a><img class="badge-vendedor" src="https://ludopedia.com.br/images/store/vendedor_prata.svg"  data-toggle="popover" data-html="true" data-trigger="hover" data-placement="top" data-content="Vendedor já possui + de 10 vendas no site e reputação positiva acima de 85%" title="Vendedor Prata" ><img class="badge-vendedor" src="https://ludopedia.com.br/images/store/vendedor_atendimento.svg"  data-toggle="popover" data-html="true" data-trigger="hover" data-placement="top" data-content="Esse Vendedor geralmente responde pergunta em seus anúncios em até 1 dia útil." title="Resposta Rápida" >						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<b>Frete :</b>
+				<div class="input-group mar-btm" style="z-index:0;">
+					<input id="cep" class="form-control" placeholder="00000-000" value="">
+					<div class="input-group-btn">
+			        <button class="btn btn-default" type="button" id="btn-estimar-frete" data-id_anuncio="627426"><i class="fa fa-truck"></i></button>
+			      </div>
+			    </div>
+							</div>
+			
+		</div>
+
+		<div class="leilao-dados-lance form-group">
+			<input type="hidden" id="id_anuncio" value="627426">
+			
+			<span class="termino">Término: <span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span></span>
+							
+				<span class="block">Lance Atual :
+												
+						<span class="vl-produto"> R$ 120,00 </span> 
+																						</span>
+				<a href="#" id="btn-lances" class="full-link">Ver Lances ( 8 )</a>
+												
+				<div class="div-lance clearfix">
+					
+					<div class="lance-combo">					
+						<select class="form-control " name="vl_lance" id="vl_lance">
+							<option value="130">R$ 130,00</option><option value="140">R$ 140,00</option><option value="150">R$ 150,00</option><option value="160">R$ 160,00</option><option value="170">R$ 170,00</option><option value="180">R$ 180,00</option><option value="190">R$ 190,00</option><option value="200">R$ 200,00</option><option value="210">R$ 210,00</option><option value="220">R$ 220,00</option><option value="230">R$ 230,00</option><option value="240">R$ 240,00</option><option value="270">R$ 270,00</option><option value="300">R$ 300,00</option><option value="330">R$ 330,00</option><option value="360">R$ 360,00</option>														
+						</select>
+					</div>				
+					<div class="lance-button">
+						<button class="btn btn-success btn-lance btn-lg btn-labeled fa fa-gavel" id="btn-dar-lance" disabled="disabled">
+							Dar Lance
+						</button>
+					</div>
+					<label class="lbl-info-lance-reserva">* Valores acima do valor mínimo de lance entrarão como valor de reserva para lances automáticos.</label>					
+				</div>
+						<div class="alert alert-danger">Para dar lances é necessário estar logado no site.</div>						<div class="block mar-top">
+				<a class="btn btn-acao btn-subscribe follow-text btn-subscribe subscribe" id="seg_2909648" href=""></a>
+				<span class="total-follow-item" title="Total de pessoas seguindo esse item" id="tot_count_subscribe_2909648">40</span>
+				
+				<div class="pull-right">
+					<i title="Visualizações" style="position: relative;top: 4px" class="glyphicon glyphicon-eye-open"></i>
+					<span  class="tot-count tot-count-view" id="tot_count__0">184</span>				</div>
+			</div>
+		</div>
+		<div>
+			<span class="sub-titulo">Formas de Pagamento: </span>
+			<ul class="disc-list">
+									 
+					<li class="forma-pgto-ludostore">Pix/Boleto <i class="fa fa-barcode"></i> ou Cartão <i class="fa fa-credit-card"></i> ( <span class="span-3x-sem-juros">3x sem juros</span> )</li>						
+															</ul>
+					</div>
+		<div class="media ludostore-box mar-btm" >
+		 					<div class="media-body" >
+	    						<a href="https://ludopedia.com.br/loja/itens?id_jogo=25605&ref=leilao" >
+	    							<div><span class="ludo-brand">LUDO<span class="ludo-brand-store" style="">STORE</span></span></div>
+	    							<span class="vl_produto_store" >R$ 203,55</span><span class="tx_boleto"> (no boleto)</span>
+			 					</a>
+		 					</div>
+		 					<div class="media-right" >
+		 						<a href="https://ludopedia.com.br/loja/itens?id_jogo=25605&ref=leilao" class="btn btn-success" style="">Comprar <i class="fa fa-shopping-cart"></i></a>
+		 					</div>
+		 				</div>	</div>
+</div>
+<hr>
+<div>
+	<div class=" bord-btm bloco-sm-title pad-top"  data-bloco="bloco-descricao-item">
+		<div class="media-left">
+			<span class="icon-wrap icon-wrap-xs bg-primary"><i class="fa fa-file-text"></i></span>
+		</div>
+		<div class="media-body"><h3 class="mar-no ">Descrição do Item</h3></div>
+		<div class="media-right chevron-div chevron-show">
+			<i class="fa fa-icon fa-chevron-right rotate down"></i>
+		</div>
+	</div>
+	<div class="bloco-show-lg bloco-sm-content bloco-sm-content-open" id="bloco-descricao-item" >
+		Usado, em &oacute;timo estado, edi&ccedil;&atilde;o em portugu&ecirc;s Devir.<br />
+<br />
+Com sleeves!<br />
+	</div>
+</div>
+
+<div>
+	<div class=" bord-btm bloco-sm-title pad-top"  data-bloco="bloco-itens-leilao">
+		<div class="media-left">
+			<span class="icon-wrap icon-wrap-xs bg-primary"><i class="fa fa-th-list"></i></span>
+		</div>
+		<div class="media-body"><h3 class="mar-no ">Outros itens no mesmo Leilão (16)</h3></div>
+		<div class="media-right chevron-div chevron-show">
+			<i class="fa fa-icon fa-chevron-right rotate down"></i>
+		</div>
+	</div>
+	<div class="bloco-show-lg bloco-sm-content bloco-sm-content-open" id="bloco-itens-leilao" >
+		<div class="smart-trail-leilao">  <div class="owl-carousel owl-theme caroulsel-trilha" > <div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/628978/a-saga-do-tomo-do-reino-ocidental">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/26057_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">A Saga do Tomo do Reino Ocidental</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 30,00</span>								
+								<a href="https://ludopedia.com.br/leilao/628978/a-saga-do-tomo-do-reino-ocidental">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627424/agricola-farmers-of-the-moor">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/1009_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Agricola: Farmers of the Moor</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 110,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627424/agricola-farmers-of-the-moor">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627418/agricola-gamers-deck">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/4685_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Agricola: Gamers' Deck</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 90,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627418/agricola-gamers-deck">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627425/agricola-through-the-seasons">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/3094_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Agricola: Through the Seasons</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 20,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627425/agricola-through-the-seasons">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627414/dune-guerra-por-arrakis">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/37857_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Dune: Guerra por Arrakis</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 600,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627414/dune-guerra-por-arrakis">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627430/earth">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/35287_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Earth</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 200,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627430/earth">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627429/g-i-joe-cartas-em-acao">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/32555_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">G.I. JOE: Cartas em Ação</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 150,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627429/g-i-joe-cartas-em-acao">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627413/gloomhaven-buttons-bugs">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/55135_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Gloomhaven: Buttons & Bugs</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 180,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627413/gloomhaven-buttons-bugs">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/628979/in-the-palm-of-your-hand">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/35078_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">In the Palm of Your Hand</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 50,00</span>								
+								<a href="https://ludopedia.com.br/leilao/628979/in-the-palm-of-your-hand">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627432/nautilion">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/11483_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Nautilion</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 70,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627432/nautilion">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/628982/nobjects">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/31741_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">NObjects</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 10,00</span>								
+								<a href="https://ludopedia.com.br/leilao/628982/nobjects">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627431/onirim-second-edition">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/10509_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Onirim: Second Edition</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 60,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627431/onirim-second-edition">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/628983/robinson-crusoe-upgrade-pack">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/51414_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Robinson Crusoé - Upgrade Pack</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 190,00</span>								
+								<a href="https://ludopedia.com.br/leilao/628983/robinson-crusoe-upgrade-pack">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/628981/shimp">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/66899_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">Shimp</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 10,00</span>								
+								<a href="https://ludopedia.com.br/leilao/628981/shimp">Ver leilão</a>
+   						</div><div class="item text-center  item-leilao">
+							<div class="container-img-item">
+								<div class="div-img-middle">
+  									<a href="https://ludopedia.com.br/leilao/627427/the-red-cathedral-contractors">
+										<img class="img-capa-item"  src="https://storage.googleapis.com/ludopedia-capas/36007_t.jpg" alt="" title="" >
+									</a>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<h4 class="nome-produto">The Red Cathedral: Contractors</h4><span class="" title="03/09/2025 às 22:30">7d 11h  ( 03/09 22:30 ) </span><span class="prod-preco">R$ 90,00</span>								
+								<a href="https://ludopedia.com.br/leilao/627427/the-red-cathedral-contractors">Ver leilão</a>
+   						</div>  </div></div><div class="btn-group">
+						<a href="https://ludopedia.com.br/leiloes?id_leilao=87356" class="btn">Ver Leilão Completo</a>
+					</div>	</div>
+</div>
+
+<div>
+	<div class=" bord-btm bloco-sm-title pad-top"  data-bloco="bloco-descricao-leilao">
+		<div class="media-left">
+			<span class="icon-wrap icon-wrap-xs bg-primary"><i class="fa fa-file-text"></i></span>
+		</div>
+		<div class="media-body"><h3 class="mar-no ">Detalhes e Regras do Leilão</h3></div>
+		<div class="media-right chevron-div chevron-show">
+			<i class="fa fa-icon fa-chevron-right rotate down"></i>
+		</div>
+	</div>
+	<div class="bloco-show-lg bloco-sm-content bloco-sm-content-open" id="bloco-descricao-leilao" >
+		- Frete por conta do comprador. O frete deve ser calculado no anúncio do jogo.<br />
+- O pagamento deve ser realizado em até 3 dias úteis após o término do leilão.<br />
+- Postagem somente após confirmação do pagamento pela Ludopedia. <br />
+<br />
+- ATENÇÃO! O envio será feito em até 10 dias úteis, após a confirmação do pagamento.<br />
+<br />
+- Leiam atentamente a descrição em cada jogo para detalhes específicos.<br />
+<br />
+Qualquer dúvida, envie mensagem antes de efetuar seu lance.<br />
+<br />
+Lances não honrados serão negativados!	</div>
+</div>
+
+<div>
+	<div class=" bord-btm bloco-sm-title pad-top"  data-bloco="bloco-perguntas">
+		<div class="media-left">
+			<span class="icon-wrap icon-wrap-xs bg-primary"><i class="fa fa-comments"></i></span>
+		</div>
+		<div class="media-body"><h3 class="mar-no ">Perguntas ao Vendedor</h3></div>
+		<div class="media-right chevron-div chevron-show">
+			<i class="fa fa-icon fa-chevron-right rotate down"></i>
+		</div>
+	</div>
+	<div class="bloco-show-lg bloco-sm-content bloco-sm-content-open" id="bloco-perguntas" >
+		<div style="text-align:center; " class="text-muted">Nenhum comentário.</div>
+<div class=" " style=" padding-top:5px  " id="main-comment">
+	<form method="post" id="frm-comentario" class="row">
+		<div class="form-group col-xs-12" style="margin-bottom: 5px">
+			<textarea rows="5"  maxlength="1000" class="form-control" name="tx-comentario" id="tx-comentario"></textarea>
+			<input type="hidden" id="id_comentario_pai" name="id_comentario_pai">
+			<input type="hidden" id="id_global" name="id_global" value="2909648"> 
+		</div>							
+		<div class="form-group col-xs-12">
+			<a href="" id="btn-comentar"  class="btn btn-primary btn-sm">Postar Pergunta</a>
+			<a href="" style="display:none" id="btn-cancela-resposta" class="btn btn-sm btn-danger">Cancelar Resposta</a>
+		</div>
+	</form>
+</div>
+	</div>
+</div>
+
+
+
+<div id="modal-lance" class="modal active fade">
+	<div class="modal-dialog">
+		<div class="modal-content">			
+			<div class="modal-body " >
+				<input type="hidden" id="modal_id_anuncio_lance">
+				<input type="hidden" id="modal_vl_lance">
+				<b>Importante!</b><br>
+				Sempre preste atenção nas condições do jogo e valor de frete, se possuir dúvidas utilize a área de perguntas para se comunicar com o vendedor.<br>
+				Após o lance ser realizado ele <b style="color:red">NÃO</b> poderá ser removido. <br><br>
+				Ao clicar em OK você <b>confirma estar de acordo</b> com os <a href="https://ludopedia.com.br/termo_aceite">Termos e Condições de Uso</a> da Ludopedia.<br>
+				<span style="font-size:1.1em">Confirma o lance de <span id="lance-confirmar"></span> para esse item?<br></span><br>
+ 					
+				<label class="lbl-info-lance-reserva">* Valores acima do valor mínimo de lance entrarão como valor de reserva para lances automáticos.</label>
+			</div>
+			<div class="modal-footer" style="margin-top: 0px">				
+				<a href="https://www.ludopedia.com.br/ajuda/leiloes#topico-7" target="_blank" class="btn btn-primary fa fa-question btn-labeled pull-left">Ajuda</a>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+				<button type="button" id="btn-confirma-lance" class="btn btn-success">Confirmar Lance</button>
+			</div>
+		</div><!-- /.modal-content -->
+  	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+			</div><!-- panelbody --> 		</div><!-- panel --> </div><!-- page-content -->			</div><!-- FOOTER -->
+        <!--===================================================-->
+        
+    
+	 				<div class="text-center mar-top block google-ad-btm" >
+					<!-- Ludopedia LG -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:728px;height:90px"
+					     data-ad-client="ca-pub-7298797509938029"
+					     data-ad-slot="4055720906"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+ 
+			<footer id="footer" class="">
+	
+	<div>
+		<ul style="display: flex;flex-direction: column;align-items: center;">
+			<li><img src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/images/brand.svg" alt="Logo Ludopedia" class="icone-ludo"></li>
+			<li>
+				<div class="brand-title">
+					<span class="brand-text ">LUDO<span style="color:#ffc90e;">PEDIA</span></span>
+				</div>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="https://ludopedia.com.br/">Ludopedia</a></li>
+			<li><a href="https://ludopedia.com.br/quemsomos">Quem Somos</a></li>
+			<li><a href="https://www.ludopedia.com.br/faleconosco">Fale Conosco</a></li>
+			<li><a href="https://www.ludopedia.com.br/apoie">Apoiador</a></li>
+			<li><a href="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/midia_kit.pdf">Mídia Kit</a></li>
+			<li><a href="https://www.ludopedia.com.br/api/documentacao.html">API</a></li>
+		</ul>
+		
+		<ul>
+			<li><a href="#">LudoStore</a></li>
+			<li><a href="https://www.ludopedia.com.br/loja">Acesso a Loja</a></li>
+			<li><a href="https://www.ludopedia.com.br/leiloes">Leilões</a></li>
+			<li><a href="https://www.ludopedia.com.br/meeps/sobre">Meeps - Cashback</a></li>
+			<li><a href="https://www.ludopedia.com.br/cadastra_produto" class="btn-main-btn-venda">Quero Vender</a></li>
+			<li><a href="https://www.ludopedia.com.br/ajuda">Ajuda</a></li>
+		</ul>
+	
+		<ul>
+			<li><a href="#">Políticas</a></li>
+			<li><a href="https://www.ludopedia.com.br/termo_aceite">Termos de Uso</a></li>
+			<li><a href="https://ludopedia.com.br/politica-de-privacidade">Política de Privacidade</a></li>
+			<li><a href="https://www.ludopedia.com.br/politica_devolucao_reembolso">Devolução e Reembolso</a></li>
+		</ul>
+		
+		<ul>
+			<li><a href="">Redes Sociais</a></li>
+			<li class="redes-sociais">
+				<a href="https://www.instagram.com/ludopedia/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a href="https://twitter.com/LudopediaNews" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/ludopedia" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.youtube.com/channel/UC9f9iOc78SwrFh52YcvkTvA" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+			</li>
+			
+		</ul>
+		<ul style="display: flex;flex-direction: column;align-items: center;" class="hidden-xs">
+			<li><img src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/images/mee1.png" alt="Mee - Mascote da Ludopedia" class="footer-mee" style="width:165px;height:165px"></li>			
+		</ul>
+	</div>
+	<div class="pad-all text-center" style="font-size: 0.9em">LUDOPEDIA COMERCIO LTDA - ME | CNPJ: 29.334.854/0001-96 | R Dr Rubens Gomes Bueno, 395 - São Paulo/SP |  contato@ludopedia.com.br
+	</div>
+</footer>
+
+<!--===================================================-->
+<!-- END FOOTER -->
+ <!-- SCROLL TOP BUTTON -->
+<!--===================================================-->
+<!--===================================================-->
+<!-- END SCROLL TOP BUTTON -->
+ 		</div> 	</div>
+			<div class="cookie-consent">
+				<p>
+					Este site utiliza cookies, conforme explicado em nossa <a href="https://ludopedia.com.br/politica-de-privacidade">Política de Privacidade</a>. Ao continuar navegando, você concorda com as condições.
+				</p>
+				<button class="btn" id="btn-consent">ENTENDI</button>
+			</div>	
+	
+	  
+
+	<script src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/dist/nifty.ludo.min.js"></script>
+		
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
+		
+		
+<script type="text/javascript"  src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/dist/moment.bundle.min.js"></script><script type="text/javascript"  src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/dist/vue.bundle.min.js"></script><script type="text/javascript"  src="https://ludopedia-static.nyc3.cdn.digitaloceanspaces.com/dist/app.bundle.min.js"></script><script type="text/javascript"  src="https://ludopedia.com.br/js/views/mercado/leilao.js?version=2.1.86"></script><script type="text/javascript"  src="https://ludopedia.com.br/js/mask/maskedinput.min.js?version=2.1.86"></script><script type="text/javascript"  src="https://ludopedia.com.br/js/views/comentarios_view.js?version=2.1.86"></script><script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script><script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script><script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script><script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.21/moment-timezone-with-data.min.js"></script><script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.min.js"></script><script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-media.min.js"></script>	
+	
+				</body>
+			</html>

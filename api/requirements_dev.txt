@@ -1,0 +1,13 @@
+uvicorn==0.35.0
+fastapi==0.116.1
+PyMySQL==1.1.1
+sqlmodel==0.0.24
+pytest==8.4.1
+pytest-cov==6.2.1
+pwdlib[argon2]==0.2.1
+pyjwt==2.10.1
+python-multipart==0.0.20
+pydantic_settings==2.10.1
+freezegun==1.5.5
+pydantic[email]==2.11.7
+httpx==0.28.1

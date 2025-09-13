@@ -1,0 +1,15 @@
+<tr>
+
+					<th>Produto</th>
+
+					<th>Cidade</th>
+
+					<th>Condição</th>
+
+					<th>Obs</th>
+
+					<th class="text-right">Valor</th>
+
+					<th class="text-right">Link</th>
+
+				</tr>
